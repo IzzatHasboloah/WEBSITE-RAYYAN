@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1024" viewBox="0 0 1920 1024">
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%">
+      <stop offset="0%" stop-color="#E7C980" stop-opacity="0.0"/>
+      <stop offset="35%" stop-color="#E7C980" stop-opacity="0.6"/>
+      <stop offset="65%" stop-color="#E7C980" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#E7C980" stop-opacity="0.0"/>
+    </linearGradient>
+    <linearGradient id="goldSoft" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#E7C980" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#E7C980" stop-opacity="0.02"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="1920" height="1024" fill="#0B0D10"/>
+  <rect x="0" y="0" width="1920" height="1024" fill="url(#goldSoft)" opacity="0.22"/>
+  <g stroke="url(#goldGrad)" stroke-width="3" fill="none" opacity="0.65">
+    <path d="M 0 120 C 480 60, 960 180, 1920 100" />
+    <path d="M 0 -904 C 480 -964, 960 -844, 1920 -924" />
+    <path d="M 0 1144 C 480 1084, 960 1204, 1920 1124" />
+  </g>
+</svg>
